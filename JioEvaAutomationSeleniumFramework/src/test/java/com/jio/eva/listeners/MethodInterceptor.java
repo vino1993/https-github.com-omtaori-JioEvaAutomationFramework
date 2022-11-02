@@ -25,7 +25,7 @@ public class MethodInterceptor implements IMethodInterceptor{
 		try {
 			List<Map<String, Object>> list = new DataProviderWithExcel().getRunnerData();
 			List<String> iterationlist = new ArrayList<>();
-			int priority = 0 - (list.size() - methods.size());
+		//	int priority = 0 - (list.size() - methods.size());
 		
 		/*	for (int i=0; i<list.size(); i++) {
 				for(int j=0; j<methods.size();j++) {
