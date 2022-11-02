@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-02T13:18:57 IST" name="Suite" finished-at="2022-11-02T13:18:57 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2022-11-02T13:18:36 IST" name="SuiteA" finished-at="2022-11-02T13:18:44 IST" duration-ms="8121">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T13:18:36 IST" name="Cycle1" finished-at="2022-11-02T13:18:44 IST" duration-ms="8121">
+      <class name="com.jio.eva.tests.HomePageTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:36 IST" name="beforeSuite" finished-at="2022-11-02T13:18:36 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:36 IST" name="beforeTest" finished-at="2022-11-02T13:18:43 IST" duration-ms="6845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="beforeClass" finished-at="2022-11-02T13:18:44 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="setUp" finished-at="2022-11-02T13:18:44 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.HomePageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="setUp" finished-at="2022-11-02T13:18:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HomePageTest()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="HomePageTest" finished-at="2022-11-02T13:18:44 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="tearDown" finished-at="2022-11-02T13:18:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageTest status=SUCCESS method=HomePageTests.HomePageTest()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="setUp" finished-at="2022-11-02T13:18:44 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="setUp" finished-at="2022-11-02T13:18:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="Login" finished-at="2022-11-02T13:18:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="tearDown" finished-at="2022-11-02T13:18:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=HomePageTests.Login()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ModelCreation()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="ModelCreation" finished-at="2022-11-02T13:18:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModelCreation -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="setUp" finished-at="2022-11-02T13:18:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.ModelCreation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="setUp" finished-at="2022-11-02T13:18:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="tearDown" finished-at="2022-11-02T13:18:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ModelCreation status=SUCCESS method=HomePageTests.ModelCreation()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Logout()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="Logout" finished-at="2022-11-02T13:18:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="setUp" finished-at="2022-11-02T13:18:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="setUp" finished-at="2022-11-02T13:18:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.Logout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="tearDown" finished-at="2022-11-02T13:18:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=HomePageTests.Logout()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="afterClass" finished-at="2022-11-02T13:18:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:44 IST" name="afterTest" finished-at="2022-11-02T13:18:44 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jio.eva.tests.HomePageTests@2034b64c]" started-at="2022-11-02T13:18:47 IST" name="afterSuite" finished-at="2022-11-02T13:18:47 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.jio.eva.tests.HomePageTests -->
+    </test> <!-- Cycle1 -->
+  </suite> <!-- SuiteA -->
+  <suite started-at="2022-11-02T13:18:47 IST" name="SuiteB" finished-at="2022-11-02T13:18:52 IST" duration-ms="4749">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T13:18:47 IST" name="Cycle2" finished-at="2022-11-02T13:18:52 IST" duration-ms="4749">
+      <class name="com.jio.eva.tests.HomePageTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:47 IST" name="beforeSuite" finished-at="2022-11-02T13:18:47 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:47 IST" name="beforeTest" finished-at="2022-11-02T13:18:52 IST" duration-ms="4395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="beforeClass" finished-at="2022-11-02T13:18:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="setUp" finished-at="2022-11-02T13:18:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="Login" finished-at="2022-11-02T13:18:52 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="setUp" finished-at="2022-11-02T13:18:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="tearDown" finished-at="2022-11-02T13:18:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=HomePageTests.Login()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="AddNewUser()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="AddNewUser" finished-at="2022-11-02T13:18:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewUser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="setUp" finished-at="2022-11-02T13:18:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="setUp" finished-at="2022-11-02T13:18:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.AddNewUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="tearDown" finished-at="2022-11-02T13:18:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddNewUser status=SUCCESS method=HomePageTests.AddNewUser()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="setUp" finished-at="2022-11-02T13:18:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.Logout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="setUp" finished-at="2022-11-02T13:18:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Logout()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="Logout" finished-at="2022-11-02T13:18:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="tearDown" finished-at="2022-11-02T13:18:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout status=SUCCESS method=HomePageTests.Logout()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="afterTest" finished-at="2022-11-02T13:18:52 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="afterClass" finished-at="2022-11-02T13:18:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jio.eva.tests.HomePageTests@221a3fa4]" started-at="2022-11-02T13:18:52 IST" name="afterSuite" finished-at="2022-11-02T13:18:52 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.jio.eva.tests.HomePageTests -->
+    </test> <!-- Cycle2 -->
+  </suite> <!-- SuiteB -->
+  <suite started-at="2022-11-02T13:18:52 IST" name="SuiteC" finished-at="2022-11-02T13:18:57 IST" duration-ms="4633">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T13:18:52 IST" name="Cycle3" finished-at="2022-11-02T13:18:57 IST" duration-ms="4633">
+      <class name="com.jio.eva.tests.HomePageTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:52 IST" name="beforeSuite" finished-at="2022-11-02T13:18:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:52 IST" name="beforeTest" finished-at="2022-11-02T13:18:57 IST" duration-ms="4333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="beforeClass" finished-at="2022-11-02T13:18:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="setUp" finished-at="2022-11-02T13:18:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Login()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="Login" finished-at="2022-11-02T13:18:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="setUp" finished-at="2022-11-02T13:18:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="tearDown" finished-at="2022-11-02T13:18:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=HomePageTests.Login()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Login()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="Login" finished-at="2022-11-02T13:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="setUp" finished-at="2022-11-02T13:18:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.Login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="setUp" finished-at="2022-11-02T13:18:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="tearDown" finished-at="2022-11-02T13:18:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=HomePageTests.Login()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="ModelCreation()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="ModelCreation" finished-at="2022-11-02T13:18:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModelCreation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="setUp" finished-at="2022-11-02T13:18:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="setUp" finished-at="2022-11-02T13:18:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.ModelCreation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="tearDown" finished-at="2022-11-02T13:18:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ModelCreation status=SUCCESS method=HomePageTests.ModelCreation()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="setUp" finished-at="2022-11-02T13:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="setUp" finished-at="2022-11-02T13:18:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.jio.eva.tests.HomePageTests.ModelCreation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ModelCreation()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="ModelCreation" finished-at="2022-11-02T13:18:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModelCreation -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="tearDown" finished-at="2022-11-02T13:18:57 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ModelCreation status=SUCCESS method=HomePageTests.ModelCreation()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="afterClass" finished-at="2022-11-02T13:18:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="afterTest" finished-at="2022-11-02T13:18:57 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jio.eva.tests.HomePageTests@5ddeb7cb]" started-at="2022-11-02T13:18:57 IST" name="afterSuite" finished-at="2022-11-02T13:18:57 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.jio.eva.tests.HomePageTests -->
+    </test> <!-- Cycle3 -->
+  </suite> <!-- SuiteC -->
+</testng-results>
