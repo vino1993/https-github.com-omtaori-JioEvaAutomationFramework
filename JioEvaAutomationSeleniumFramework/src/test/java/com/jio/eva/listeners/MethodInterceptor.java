@@ -65,8 +65,6 @@ public class MethodInterceptor implements IMethodInterceptor{
 			// create local list and add test method name
 			// check if it already present in list and compare with n-1
 			
-			
-			
 			System.out.println("getName: " + context.getName());
 			System.out.println("getSuite: " + context.getCurrentXmlTest().getSuite().getName());
 
